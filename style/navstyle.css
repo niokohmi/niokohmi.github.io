@@ -1,0 +1,21 @@
+.nav{
+    position: absolute;
+    width: auto;
+    margin: 20px;
+}
+.nav-button {
+               overflow:hidden;
+                background-color: transparent;
+            }
+
+.nav-button a {
+    float: left;
+     color: rgb(255, 255, 255);
+                background-color: transparent;
+                text-align: right;
+                padding: 10px;
+                text-decoration: none; 
+}
+.nav-button a:hover {
+    color:beige;
+}

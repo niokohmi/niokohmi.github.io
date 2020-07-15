@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <div class="nav">
+            <a class="nav-button" href="contact%20me.html">CONTACT ME</a>
+            <a class="nav-button" href="digital%20art.html">PROJECTS</a>
+            <a class="nav-button" href="about.html">ABOUT</a>
+            
+            
+            
+           <a class="logo" href="practice2.html"><img src="imgsource/DRAFT9.png" height="50px" style="padding-left:30px""/> </a>
+            </div>                                                                                           
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:#000000; /*#2A1B3D; 1c1a1c; this is the old colour injust kept it here to remember*/ 
+      }
+    
+        h2{
+            font-family: monospace;
+            font-size: 40px;
+            color: antiquewhite;
+        }
+        
+    .nav{
+    overflow: hidden;
+  background: rgba(0, 0, 0, 0) ;
+    margin-top: 30px;
+    }
+
+  .nav-button {
+               float:right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: monospace;
+  font-display: block;
+            }
+    
+.nav-button:hover{
+    color: darkslategrey;
+    text-decoration: line-through;
+    text-decoration-color: aqua;
+            }
+   
+
+    * {
+      box-sizing: border-box;
+    }
+
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #ce35bc;
+      color: #f2edf2;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #ce35bc;
+    }
+
+   
+    .container {
+      border-radius: 5px;
+      background-color: #000000;/*#1c1a1c; old one*/
+      padding: 10px;
+    }
+
+   
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+      color: antiquewhite;
+    }
+
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+     .social-icons {
+                  text-align: center;
+                  }  
+            .social-icons li {
+                  display:inline-block;
+                  list-style-type:none;
+                  -webkit-user-select:none;
+                  -moz-user-select:none;
+                  }
+            .social-icons li a {
+                  border-bottom: none;
+                  }
+            .social-icons li img {
+                  width:70px;
+                  height:70px;
+                  margin-right: 20px;
+                }
+        
+    @media screen and (max-width: 600px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="container">
+      <div style="text-align:center">
+          <br>
+          <br>
+          <br>
+          <br>
+          
+        <h2>HOW CAN I HELP YOU TODAY?</h2>
+        <h4>Anything to say?</h4>
+      </div>
+        
+      <div class="row">
+        <div class="column">
+          <img src="imgsource/contact.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." color="antiquewhite">
+              
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              
+              <a href="mailto:onyinyeagetu@gmail.com"><button onclick="myFunction()">SUBMIT</button></a>
+          </form>
+        </div>
+      </div>
+    </div> 
+        
+        <!--“Intuitive design is how we give the user new superpowers."
+
+Jared Spool-->
+      <ul class="social-icons" opacity="1">
+                    <li><a href="https://www.instagram.com/?hl=en">Instagram.</a></li>
+                    <li><a href="https://plus.google.com/discover">linkedIn.</a></li>
+                    <li><a href="https://www.pinterest.ca/">Vimeo.</a></li>
+                    <li><a href="https://www.youtube.com/">Behance.</a></li>
+                </ul>
+        <center> ©2019</center>
+        
+  <script>
+            function myFunction() {
+              alert("Your message has been sent!");}
+    </script>
+    </body>
+</html>
