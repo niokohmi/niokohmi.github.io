@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nio Kohmi</title>
 <style>
 * {
   box-sizing: border-box;
@@ -13,59 +14,58 @@ body {
   margin: 0;
   font-family: Arial;
   font-size: 17px;
-    height: 100vh;
-
+  height: 100vh;
 }
     
-    h1{
-        text-align: center;
-        font-family: monospace;
-        font-display: block;
-        color: antiquewhite;
-         margin-top: 150px;
-        font-size: 110px;
-    }
+h1{
+  text-align: center;
+  font-family: monospace;
+  font-display: block;
+  color: antiquewhite;
+  margin-top: 150px;
+  font-size: 110px;
+}
     
-    h2 {
-        margin-top:100px;
-        font-family: monospace;
-        font-display: block;
-        font-size: 20px;
-        text-align: center;
-        color: antiquewhite;
-        padding-left: 600px;
-        position: fixed;
-    }
-     h7 {
-        margin-top:0px;
-        font-family: monospace;
-        font-display: block;
-        font-size: 20px;
-        text-align: center;
-        color: antiquewhite;
-        padding-left: 350px;
-        
-    }
+h2 {
+  margin-top:100px;
+  font-family: monospace;
+  font-display: block;
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  padding-left: 600px;
+  position: fixed;
+}
+
+h7 {
+  margin-top:0px;
+  font-family: monospace;
+  font-display: block;
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  padding-left: 350px;
+}
     
-     h3{
-        text-align:left;
-        color: aqua;
-         font-family: monospace;
-        font-display: block;
-         margin-top: 0px;
-        font-size: 50px;
-    }
+h3{
+  text-align:left;
+  color: aqua;
+  font-family: monospace;
+  font-display: block;
+  margin-top: 0px;
+  font-size: 50px;
+}
     
-    .arrow{
-        align-content: center;
-        padding-left: 630px;
-        height: 30px;
-        width: 30px;        
-    }
+.arrow{
+  align-content: center;
+  padding-left: 630px;
+  height: 30px;
+  width: 30px;        
+  }
     
-    .about{
-        opacity: 0;
-    }
+.about{
+  opacity: 0;
+}
     
 #myVideo {
   position: fixed;
@@ -74,139 +74,122 @@ body {
   min-width: 100%; 
   min-height: 100%;
   background-attachment: fixed;
- z-index: -1;
-    }
+  z-index: -1;
+}
 
 .content {
-    position: absolute;
+  position: absolute;
   top: 100%;
   background: #000000;/* #121012; old color*/
   color:antiquewhite;
-    opacity: 0.5;
+  opacity: 0.5;
   width: 100%;
   height: 100%;
-  padding: 0px;
-    }
+  padding: 0px; 
+}
     
 .nav{
-    overflow: hidden;
+  overflow: hidden;
   background: rgba(0, 0, 0, 0) ;
-    margin-top: 20px;
-    position:sticky;
-    padding-bottom: 1px;
-    padding-top: 1px;
-    }
+  margin-top: 20px;
+  position:sticky;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
 
-  .nav-button {
-      /*resume*/
-               float:inherit;
+.nav-button {
+  /*resume*/
+  float: left;
   color: #f2f2f2;
-  text-align: center;
+  margin-top: 5px;
   padding-left: 23px;
   text-decoration: none;
   font-size: 20px;
   font-family: monospace;
   font-display: block;
-            }
+}
+
+.nav-button:hover{
+  /*resume*/
+  /*color: darkslategrey;
+  text-decoration-color: aqua;*/
+  text-decoration:underline;
+  cursor: url(imgsource/cursorss.cur), default;
+}
     
-    .nav-button2 {
-        /*projects*/
-               float:inherit;
+    
+.nav-button2 {
+  /*projects*/
+  float: right;
   color: #f2f2f2;
-  text-align: center;
-  /*padding-left: 2px;*/
-        padding-bottom: 2px;
-        padding-top: 2px;
-        margin-left: 542px;
+  text-align: right;
+  padding-right: 23px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-top: 5px;
   text-decoration: none;
   font-size: 20px;
   font-family: monospace;
   font-display: block;
-            }
-    
-  .nav-button:hover{
-      /*resume*/
-    /*color: darkslategrey;
-      text-decoration-color: aqua;*/
-      text-decoration:underline;
-      cursor: url(imgsource/cursorss.cur), default;
-    }
-    
-    
-    .nav-button2:hover{
-     /*projects*/ 
-    /*color: darkslategrey;
-      text-decoration-color: aqua;
-        */
-        transition-delay: 0.1;
-        text-decoration:underline;
-        cursor: url(imgsource/cursorss.cur), default;
-    cursor transform-origin: 100% 100%;}
-    
-    
-    
-    .logo {
-        padding-left: 460px;
-        margin-top: 80px;
-    }
-   
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
+}
+        
+.nav-button2:hover{
+  /*projects*/ 
+  /*color: darkslategrey;
+  text-decoration-color: aqua;
+  */
+  transition-delay: 0.1;
+  text-decoration:underline;
+  cursor: url(imgsource/cursorss.cur), default;
+  cursor transform-origin: 100% 100%;
 }
 
-#myBtn:hover {
-  background: #ddd;
-    color: black;}
-    
+.logo{
+  padding-left: 40%;
+}
+  
 .social-icons {
-                  text-align: center;
-                  }  
+  text-align: center;
+}
+
 .social-icons li {
-        display:inline-block;
-        list-style-type:none;
-        -webkit-user-select:none;
-         -moz-user-select:none;
-                  }
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+}
+
 .social-icons li a {
-         border-bottom: none;
-                  }
+  border-bottom: none;
+}
+
 .social-icons li img {
-         width:60px;
-         height:60px;
-         margin-right: 20px;
-         padding-top: 0px;
-                  
-                }
+  width:60px;
+  height:60px;
+  margin-right: 20px;
+  padding-top: 0px;
+}
+
 .btn{
-    width: 200px;
-    font-family: monospace;
-        font-display: block;
+  width: 200px;
+  font-family: monospace;
+  font-display: block;
   font-size: 18px;
   padding: 10px;
   border: none;
   /*background: #34b3a0;*/
-    letter-spacing: 1px;
-    background: rgb(39, 39, 39);
+  letter-spacing: 1px;
+  background: rgb(39, 39, 39);
   color: #fff;
   cursor: pointer;
-    text-decoration: none;
+  text-decoration: none;
 }
     
 .btn:hover{
   background: #ddd;
-    color: black;}
+  color: black;
 }
-    
-    
-    
-    
+       
 </style>
 </head>
 <body>
@@ -217,48 +200,45 @@ body {
   Your browser does not support HTML5 video.
 </video>
     
-            <div class="nav">
-                 <a class="nav-button" href="about.html">RESUME</a>
-                <a class="logo"><img src="imgsource/DRAFT9.png" height="45px" style="padding-left:30px"/> </a>
-                 <a class="nav-button2" href="digital%20art.html">PROJECTS</a>
-           
-            
-            
-           
-            </div>
+<div class="nav">
+  <a class="nav-button" href="about.html">RESUME</a>
+  <h8><a class="logo"><img src="imgsource/DRAFT9.png" height="45px"></a></h8>
+  <a class="nav-button2" href="digital%20art.html">PROJECTS</a>
+</div>
     
       
-    <h1>NIO KOHMI</h1>
-                <ul class="social-icons">
-                    <li><a href="https://www.instagram.com/?hl=en"><img src="imgsource/Instagram.png"/></a></li>
-                    <li><a href="https://plus.google.com/discover"><img src="imgsource/Google+.png"/></a></li>
-                    <li><a href="https://www.pinterest.ca/"><img src="imgsource/Pinterest.png"/></a></li>
-                    <li><a href="https://www.youtube.com/"><img src="imgsource/YouTube.png"/></a></li>
-                </ul>
+<h1>NIO KOHMI</h1>
+
+<ul class="social-icons">
+  <li><a href="https://www.instagram.com/?hl=en"><img src="imgsource/Instagram.png"/></a></li>
+  <li><a href="https://plus.google.com/discover"><img src="imgsource/Google+.png"/></a></li>
+  <li><a href="https://www.pinterest.ca/"><img src="imgsource/Pinterest.png"/></a></li>
+  <li><a href="https://www.youtube.com/"><img src="imgsource/YouTube.png"/></a></li>
+</ul>
     
     
-    <h2> scroll </h2>
+<h2> scroll </h2>
     
    
 <div class="content">
-    <!--<center><button id="myBtn" onclick="myFunction()">Pause</button></center>-->
+  <!--<center><button id="myBtn" onclick="myFunction()">Pause</button></center>-->
   <h3>ABOUT ME.</h3>
- <table border="0" >
-            <tr>
-                <th>
-                    <div class="about">Hello! Welcome to my portfolio website. I am currently a student at carleton university in the interactive multimedia design program. I've been interested in art and technology for as long as I can remember and i consider to be a huge part of my life. through my time in university, i have learned multiple skills including web and graphic design.</div>
-                    <br>
-                    <br>
-                    <br>
-                    <center><a href="about.html" class="btn"> RESUME</a></center>
-                </th>
-                <th>
-                 <img src="imgsource/33936107_196769847637560_1022054692911316992_n.jpg"
-                 width=300px;
-                 height=400px;>
-                </th>
-            </tr>
-        </table>
+  <table border="0" >
+    <tr>
+      <th>
+        <div class="about">Hello! Welcome to my portfolio website. I am currently a student at carleton university in the interactive multimedia design program. I've been interested in art and technology for as long as I can remember and i consider to be a huge part of my life. through my time in university, i have learned multiple skills including web and graphic design.</div>
+        <br>
+        <br>
+        <br>
+        <center><a href="about.html" class="btn"> RESUME</a></center>
+      </th>
+      <th>
+        <img src="imgsource/33936107_196769847637560_1022054692911316992_n.jpg"
+        width=300px;
+        height=400px;>
+      </th>
+    </tr>
+  </table>
 </div>
 
 <script>
