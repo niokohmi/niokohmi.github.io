@@ -42,11 +42,15 @@ h7 {
   background-color: transparent;
   display: inline-block;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   padding-right:30px;
   text-decoration: none;
   font-size: 20px;      
+}
+
+.groups{
+  padding-bottom: 50px;
 }
             
 span { 
@@ -60,7 +64,7 @@ span {
 }
 
 .graphic{
-  padding-right: 50px;
+  padding-right: 100px;
 }
           
 @media screen and (max-width: 500px) {
