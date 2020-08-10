@@ -18,12 +18,12 @@ body {
 .logo{
   font-family: 'Major Mono Display', monospace;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: none;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
-. logo:hover{
+.logo:hover{
   text-decoration: none;
 }
 
@@ -34,8 +34,7 @@ h7 {
 .nav{
   overflow: hidden;
   background: rgba(0, 0, 0, 0) ;
-  margin-top: 15px;
-  padding-top: 3px;
+  padding-top: 10px;
 }
 
 .works {
@@ -43,7 +42,8 @@ h7 {
   background-color: transparent;
   display: inline-block;
   text-align: center;
-  padding-top: 0;
+  padding-bottom: 30px;
+  padding-top: 20px;
   padding-right: 30px;
   text-decoration: none;
   font-size: 20px;      
@@ -58,21 +58,11 @@ span {
   text-decoration: overline;
   text-emphasis-style: dot;
 }
-            
 
-.gallery {
-  margin: 10px 50px;
+.graphic{
+  padding-right: 80px;
 }
-
-.gallery img {
-  padding-left: 10px;
-}
-
-.gallery img hover{
-  transform: scale(3.3);
-  
-}
-
+          
 @media screen and (max-width: 500px) {
   .column {
     width: 100%;
