@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 * {
   cursor: url(imgsource/cursorsss.cur);
@@ -14,6 +15,18 @@ body {
   height: 100%;
 }
 
+.logo{
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+. logo:hover{
+  text-decoration: none;
+}
+
 h7 {
   font-size: 25px;
 }
@@ -22,6 +35,7 @@ h7 {
   overflow: hidden;
   background: rgba(0, 0, 0, 0) ;
   margin-top: 15px;
+  padding-top: 3px;
 }
 
 .works {
@@ -40,7 +54,7 @@ span {
   width: 25%;
 }
             
-a:hover {
+.works:hover {
   text-decoration: overline;
   text-emphasis-style: dot;
 }
