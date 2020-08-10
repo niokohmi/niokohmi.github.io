@@ -2,6 +2,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
 <title>Nio Agetu</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
@@ -76,7 +80,7 @@ h4{
 }
 
 h5{
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -97,10 +101,19 @@ ul li{
 
 ul li:hover{
 text-decoration: overline;
+cursor: url(imgsource/cursorss.cur), default;
 }
 
-
-
+.resume{
+  background-color: rgba(0,0,0,0.9);
+  border-color: rgb(255, 255, 255,0.5);
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-size: 20px;
+  color: #fff;
+  font-family:'Quicksand', sans-serif ;
+  cursor: url(imgsource/cursorss.cur), default;
+}
     
 .arrow{
   align-content: center;
@@ -161,7 +174,7 @@ text-decoration: overline;
   /*about*/
   /*color: darkslategrey;
   text-decoration-color: aqua;*/
-  text-decoration:underline;
+  text-decoration: overline;
   cursor: url(imgsource/cursorss.cur), default;
 }
     
@@ -187,7 +200,7 @@ text-decoration: overline;
   text-decoration-color: aqua;
   */
   transition-delay: 0.1;
-  text-decoration:underline;
+  text-decoration:overline;
   cursor: url(imgsource/cursorss.cur), default;
 }
 
@@ -337,11 +350,13 @@ text-decoration: overline;
       <h4>Hello,</h4>
       
       <h5>I'm an ottawa based web developer and designer,<br> 
-        Specializing in UX desing and front-end developement.<br>
+        Specializing in UX design and front-end developement.<br>
         Currently studying at carleton university.</h5>
         <br>
-        <br>
-        <br>
+        <!--<div ><button id="resume" class="resume" href="documents/Onyinye Agetu's Resume.pdf">Resume</button></div>-->
+        <a href="documents/Onyinye Agetu's Resume.pdf">
+          <button id="resume" class="resume">Resume</button>
+        </a>
         <br>
         <br>
         <ul>

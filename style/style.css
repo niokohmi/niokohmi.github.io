@@ -21,7 +21,7 @@ h7 {
 .nav{
   overflow: hidden;
   background: rgba(0, 0, 0, 0) ;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .works {
@@ -29,7 +29,7 @@ h7 {
   background-color: transparent;
   display: inline-block;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 0;
   padding-right: 30px;
   text-decoration: none;
   font-size: 20px;      
