@@ -7,11 +7,11 @@
 
 body {
   font-family:'Quicksand', sans-serif;
-  background-color:#0c0b0b;
+  /*background-color:#0c0b0b;*/
   letter-spacing: 1px;
   box-sizing: border-box;
   cursor: url(imgsource/cursorsss.cur), default;
-  /*background-color:#121012;*/
+  background-color:rgba(0,0,0,0);
   height: 100%;
 }
 
