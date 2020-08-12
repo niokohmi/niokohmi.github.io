@@ -26,7 +26,20 @@ body {
   text-decoration: none;
 }
 
-h7 {
+h2{
+  color: white;
+  font-family:'Quicksand', sans-serif;
+  font-size: 50px;
+}
+
+h3{
+  color: white;
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
+
+.h7 {
   font-size: 25px;
 }
             
@@ -48,18 +61,13 @@ h7 {
   font-size: 20px;      
 }
 
-.groups{
-  padding-bottom: 100px;
-}
-            
-span { 
-  float: left;
-  width: 25%;
-}
-            
 .works:hover {
   text-decoration: overline;
   text-emphasis-style: dot;
+}
+
+.groups{
+  padding-bottom: 100px;
 }
 
 .graphic{
