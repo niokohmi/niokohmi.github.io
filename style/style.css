@@ -75,7 +75,6 @@ h3{
   border: 50px solid rgba(0, 0, 0, 0);
   border-bottom: 50px solid rgba(0, 0, 0, 0) ;
   width: 100%;
-  height: auto;
   margin-bottom: 100px;
 }
 
@@ -84,7 +83,6 @@ h3{
   border: 50px solid rgba(0, 0, 0, 0);
   border-bottom:  solid rgba(0, 0, 0, 0);
   width: 100%;
-  height: auto;
 }
           
 @media screen and (max-width: 500px) {
