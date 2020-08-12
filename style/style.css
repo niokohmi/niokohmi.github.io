@@ -67,15 +67,28 @@ h3{
 }
 
 .groups{
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
 }
 
 .graphic{
-  padding-right: 100px;
+  /*padding-right: 100px;*/
+  border: 50px solid rgba(0, 0, 0, 0);
+  border-bottom: 50px solid rgba(0, 0, 0, 0) ;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.graphics{
+  /*padding-right: 100px;*/
+  border: 50px solid rgba(0, 0, 0, 0);
+  border-bottom:  solid rgba(0, 0, 0, 0);
+  width: 100%;
+  height: auto;
 }
           
 @media screen and (max-width: 500px) {
-  .column {
+  .groups {
     width: 100%;
   }
 }
