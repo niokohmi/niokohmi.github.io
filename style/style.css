@@ -65,7 +65,7 @@ h3{
 }
 
 .works:hover {
-  text-decoration: overline;
+  cursor: pointer;
   text-emphasis-style: dot;
 }
 
